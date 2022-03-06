@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  
+    <title>Christian's Website</title>
+    <link rel="stylesheet" href="/css/main.css">
+
+  
+</head>
+<body >
+
+   <!--<audio autoplay hidden src="/music/jazzy-abstract-beat-11254.mp3" ></audio>--> 
+   <div class="concon">
+    <nav class ="navbar">
+        <div class="h11">
+        <a href="#"><h1 >Christian's <span>Website</span></h1></a>
+    </div>
+        <ul >
+            <li><a href="" >Home</a></li>
+            <li><a href="#aboutme">About</a></li>    
+                    
+        </ul>
+        
+         <a class="contact" href="#contactme"><b> Contact</b></a>
+    </nav>
+    <!-- hero section-->
+    <section id="hero">
+        <div class="hero container" >
+            <div>
+            <h1 ><span> Hello</span> </h1>
+            <h1><span>My Name </span></h1>
+            <h1> <span>is</span></h1>
+            <h1> <span><b>Christian</b></span></h1>
+            
+            <a href="/images/ChristianRESUME.pdf"  type="button"  target="_blank"  class="cta"><b> <img src="/images/download.svg" alt=""> Resume ></b></a>
+        </div>
+            
+        </div>
+        <!--Animation -->
+
+        <div class=" raindrops">
+            <form class="design1" action=""></form>
+            <form class="design2" action=""></form>
+            <form class="design3" action=""></form>
+            <form class="design4" action=""></form>
+            <form class="design5" action=""></form>
+            <form class="design6" action=""></form>
+            <form class="design7" action=""></form>
+            <form class="design8" action=""></form>
+            </div>
+
+    </section>
+     <!-- hero section end-->
+
+    <!--------------------------------------About Me Section------------------------------>
+    <section id="aboutme">
+        <div class="container">
+            <h3>about me</h3>
+            <div class="about_con">
+            <h4 id="infobut">Information</h4>
+            <h4 id="edubut">Education</h4>
+            <h4 id="skillbut">Skills</h4>
+        
+        </div>
+
+        <div id="aboutgif">
+            
+        </div>
+<!--TYPING--> 
+        <div class="text active" id="textskill">
+            <div class="title_skill" id="skill_t">
+               <div class="titleS">
+                <h2>Skills</h2>
+                <button id="skillclose" >&times;</button>
+            </div>
+            
+        </div>
+        
+      
+        <div class="typing" id="skill_p">
+            <p>>Basic Knowledge in Programming Languages <br>(JAVA,C,Visual Basic,HTML,CSS,JavaScript,Assembly Languages)
+             <br>>Deccent Oral and Written Communication Skills.
+             <br>>Adapts Quickly To A New Concepts/Environment.
+             <br>>Basic Knowledge in Computer Hardware.
+             <br>>Proficient in Microsoft Office Applications.
+             <br>>High Organizational and Coordination Skills.
+             <br>>Leadership ,Logical and Critical Thinking Skills.
+             <br>>Motivated , Dedicated and Fast Learner.     
+        </p>
+        </div>
+    </div>
+      
+        <!--Education-->
+        <div class="active1" id="textEdu">
+            <div class="title_Edu" >
+               <div class="titleE">
+                <h2>Education</h2>
+                <button id="educlose" >&times;</button>
+            </div>
+        </div>
+            
+        
+        <div class="typing_Edu" id="edu_p">
+           <ul>
+               <li><b>College</b> 
+                <p>Siena College of San Jose (2020)
+                    <cite><br> -Bachelor of Science Computer Engineering</cite>
+                </p>
+               </li>
+               <hr>
+               <li><b>High School</b> 
+                <p>RVS Achievers Academy (2015)            
+                </p>
+               </li>
+               <hr>
+               <li><b>Elementary</b> 
+                <p>Muzon Pabahay Elementary School (2011)            
+                </p>
+               </li>
+               <hr>
+           </ul>
+        </p>
+        </div>
+    </div>
+
+     
+
+   <!-----------------Information------------->
+
+   <div class="info" id="info_p">
+       <div class="titleinfo">
+        <h2>Information</h2>
+        <button id="info_but">&times;</button>
+        
+    </div >
+        <p>My Name is Christian Vigonte Ibañez , I'm 22 year's old ,
+            <br> My goal in my life for now is to gain an experience in my field and grow my skills.
+            <br> My Hobbies are playing musical instrument such as piano,drawing and making a poetry,
+            <br> I love watching movies and playing online games.
+            </p>
+            
+</div>
+</div>
+
+
+   
+    <!-------------------------------Script for About Me----------------------------------------------------> 
+        
+            <script>
+    document.getElementById("skillbut").addEventListener("click",function(){
+                document.getElementById("textskill").style.transform = "scale(1)";
+                document.getElementById("textEdu").style.transform = "scale(0)";
+                document.getElementById("info_p").style.transform = "scale(0)";
+                document.getElementById("aboutgif").style.transform = "scale(0)";
+          
+            } )
+            
+            document.getElementById("skillclose").addEventListener("click",function(){
+                document.getElementById("textskill").style.transform = "scale(0)";
+                document.getElementById("aboutgif").style.transform = "scale(1)";
+            } )
+    //----------------------------------------------------------------------------------------    
+     document.getElementById("edubut").addEventListener("click",function(){
+                document.getElementById("textEdu").style.transform = "scale(1)";
+                document.getElementById("textskill").style.transform = "scale(0)";
+                document.getElementById("info_p").style.transform = "scale(0)";
+                document.getElementById("aboutgif").style.transform = "scale(0)";
+
+            } )
+            
+            document.getElementById("educlose").addEventListener("click",function(){
+                document.getElementById("textEdu").style.transform = "scale(0)";
+              document.getElementById("aboutgif").style.transform = "scale(1)";
+            } )
+    //---------------------------------------------------------------------------
+    document.getElementById("infobut").addEventListener("click",function(){
+             document.getElementById("textEdu").style.transform = "scale(0)";
+             document.getElementById("textskill").style.transform = "scale(0)";
+             document.getElementById("info_p").style.transform = "scale(1)";
+             document.getElementById("aboutgif").style.transform = "scale(0)";
+            
+
+            } )
+            
+            document.getElementById("info_but").addEventListener("click",function(){
+                document.getElementById("info_p").style.transform = "scale(0)";
+                document.getElementById("aboutgif").style.transform = "scale(1)";
+            } )
+            </script>
+     <!-------------------ANIMATION FOR ABOUTME---------------------------------------->  
+     <div >
+        <div class="cube1"></div>
+        <div class="cube2"></div>
+        <div class="cube3"></div>
+        <div class="cube4"></div>
+        <div class="cube5"></div>
+    </div>
+     <!-------------------ANIMATION FOR ABOUTME---------------------------------->  
+    
+
+
+    </section>
+
+
+      <!-------------------Contact Me---------------------------------->  
+    <section id="contactme">
+
+    <div class="aa">
+        
+        <h1 class="h1">Contact Me </h1>
+        <div class="contactSec" >
+           <a class="facebook" id="fb" href="https://www.facebook.com/christian8hara" target="_blank"></a>
+            <a class="email" id="email" href="mailto:imchristianibanez@gmail.com" ></a>
+            <div class="phone" id="phone"></div>
+
+            <div class="imagess" id="img1">
+            </div>
+            
+            <div class="images1" id="img2">
+            </div>
+    
+            <div class="images2" id="img3">
+            </div>
+        </div>
+
+       
+
+        
+    </div>
+    </section>
+
+    <!-------------------Script Contact Me----------------------------------> 
+    <script>
+        document.getElementById("fb").addEventListener("mouseover",function(){
+            document.getElementById("img1").style.transform ="scale(1)";
+            document.getElementById("img2").style.transform ="scale(0)";
+            document.getElementById("img3").style.transform ="scale(0)";
+
+        })
+
+        document.getElementById("email").addEventListener("mouseover",function(){
+            document.getElementById("img2").style.transform ="scale(1)";
+            document.getElementById("img1").style.transform ="scale(0)";
+            document.getElementById("img3").style.transform ="scale(0)";
+
+        })
+
+        document.getElementById("phone").addEventListener("mouseover",function(){
+            document.getElementById("img3").style.transform ="scale(1)";
+            document.getElementById("img1").style.transform ="scale(0)";
+            document.getElementById("img2").style.transform ="scale(0)";
+        })
+
+
+
+    </script>
+
+    <!----------------------------------------------------->  
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>

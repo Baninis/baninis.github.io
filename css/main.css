@@ -1,0 +1,879 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;1,300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   text-decoration: none;
+   
+   
+ 
+}
+::-webkit-scrollbar{display:none;}
+
+html{
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior:smooth;
+}
+
+.concon{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    
+}
+.concon .navbar{
+    margin-top: -2em;
+    align-items: center;
+   display: flex;
+   justify-content: flex-end;
+   background-color: rgb(0, 0, 0);
+   padding: 40px 0;
+   
+   
+
+}
+.concon .navbar h1{
+    color: white;
+}
+.concon .navbar h1 span{
+    
+    color:red;
+    
+    
+}
+.concon .contact{
+    color: aqua;
+    
+    border-radius: 40px;
+    padding: 0 2.5em;
+    margin-right: 2em;
+    border: aqua solid;
+    transition: .5s ease;
+   
+}   
+.concon .contact:hover
+{
+    color:black;
+    background-color: aqua;
+    
+}
+
+.concon nav li{
+
+    list-style: none;
+    padding: 0em 1em;
+    display: inline-block;
+    margin-right: 1em;
+    border-radius: 1em;
+    transition: .5s ease;
+    
+    
+}
+
+.concon nav li:nth-child(1):hover{
+    background-color: aqua;
+}
+.concon nav li:nth-child(2):hover{
+    background-color: aqua;
+}
+
+.concon .h11{
+    margin-right: auto;
+}
+
+
+
+
+
+/*This is the navbar and logo*/
+
+/*-------------------------------------------------------------------------------------*/
+.concon a{
+   
+  text-decoration: none; 
+   position: relative;
+    
+}
+
+.concon a img{
+ 
+    width: 20px;
+}
+
+.concon .container{
+
+    width: 100%;
+    min-height: 100vh;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.concon #hero{
+    background-image: url(/images/anime4.jpg);
+    margin-top: -2em;
+    background-size:cover;
+    
+}
+
+.concon #hero h1
+{   
+    
+    display: block;
+    color: white;
+    position: relative;
+    left: -10em;
+    margin-bottom: -.5em;
+    
+      
+}
+
+
+
+.concon #hero .cta
+{   
+    
+    font-size: 1em;    
+    color:aqua;
+    border: aqua solid;
+    padding: 5px 35px;
+    left: -15em; 
+    box-shadow: inset 0 0 0 0 aqua;
+    text-transform: uppercase;
+    background-color:transparent;
+    
+}
+
+.concon #hero .cta:hover{
+    color: black;
+    box-shadow: inset 200px 0 0 0 aqua;
+    background-color: aqua;
+}
+
+
+.concon #hero h1:nth-child(1)
+{
+    
+    transition:.3s ease-in;
+    transition-delay: .5s;
+}
+
+.concon #hero h1:nth-child(2)
+{
+    transition:.3s ease-in ;
+    transition-delay: 1s;
+   
+     
+}
+
+.concon #hero h1:nth-child(3)
+{
+    
+    transition:.3s ease-in;
+    transition-delay: 1.5s;
+}
+.concon #hero h1:nth-child(4)
+{
+    margin-bottom: .5em;
+    transition:.3s ease-in;
+    transition-delay: 2s;    
+    color: rgb(255, 0, 0);
+    animation: animate 2s;
+    animation-delay:2s ;
+}
+
+
+
+/*Animation*/
+
+.concon .design1{
+    width: 2px;
+    height: 100px;
+    position: absolute;
+    background-color: red;
+    top: 100%;
+   
+    left: 70%;
+    opacity: 0%;
+    animation:rain 5s infinite ;
+    animation-delay: 1s;
+    
+}
+
+.concon .design2{
+    width: 2px;
+    height: 100px;
+    position: absolute;
+    background-color: red;
+    top: 100%;
+    left: 30%;
+    opacity: 0%;
+    animation:rain 5s infinite ;
+    animation-delay: 1.5s;
+}
+
+.concon .design3{
+    width: 2px;
+    height: 100px;
+    position: absolute;
+    background-color: red;
+    top: 100%;
+    left: 60%;
+    opacity: 0%;
+    animation:rain 5s infinite ;
+    animation-delay: 2.5s;
+}
+
+.concon .design4{
+    width: 2px;
+    height: 100px;
+    position: absolute;
+    background-color: red;
+    top: 100%;
+    left: 40%;
+    opacity: 0%;
+    animation:rain 5s infinite ;
+    animation-delay: 2s;
+}
+
+.concon .design5{
+    width: 2px;
+    height: 100px;
+    position: absolute;
+    background-color: red;
+    top: 100%;
+    left: 50%;
+    opacity: 0%;
+    animation:rain 5s infinite ;
+    animation-delay: 3s;
+}
+
+.concon .design6{
+    width: 2px;
+    height: 100px;
+    position: absolute;
+    background-color: red;
+    top: 100%;
+    left: 40%;
+    opacity: 0%;
+    animation:rain 5s infinite ;
+    animation-delay: 3.5s;
+}
+
+.design7{
+    width: 2px;
+    height: 100px;
+    position: absolute;
+    background-color: red;
+    top: 100%;
+    left: 90%;
+    opacity: 0%;
+    animation:rain 5s infinite ;
+    animation-delay: 4.5s;
+}
+
+.concon .design8{
+    width: 2px;
+    height: 100px;
+    position: absolute;
+    background-color: red;
+    top: 100%;
+    left: 10%;
+    opacity: 0%;
+    animation:rain 5s infinite ;
+    animation-delay: 4s;
+}
+
+
+
+
+@keyframes rain{
+     from {top:0;opacity: 80%; margin-top: -4em;};
+    to  {top:100;opacity: 0%;};
+
+   
+}
+
+/*-------------------------------About Me Section-------------------------------------------*/
+
+#aboutme{
+    background-image: url(/images/redback.jpg);
+    background-size:cover;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    
+}
+
+#aboutgif
+{
+    background-image: url(/images/aboutme.gif);
+    margin: 0;
+    padding: 12em 20em;
+    left: 45%;
+    background-size: cover;
+    position: absolute;
+    border: black solid;
+    transition: 200ms ease-in-out;
+}
+
+#aboutme .container h3
+{
+    padding: 1em 10em;
+    background: rgb(80, 22, 22);
+    text-transform: uppercase;
+    position:absolute;
+    top: 25.1%;
+    left: 0;
+    margin-left: -2.5em;
+    border-color: red;
+    border-radius: 5px 100px 0px;
+   color: wheat;
+   
+}
+#aboutme .container h4{
+    margin-top: 3em;
+    color: white;
+}
+#aboutme .container h4:nth-last-child(1){
+    
+        padding: 1em 10em;
+        background:black;
+        text-transform: uppercase;
+        position:absolute;
+        top: 35%;
+        left: 0;
+        margin-left: -4.5em;
+    
+        border-radius: 300px;
+        cursor: pointer;
+       
+    }
+
+    
+    #aboutme .container h4:nth-last-child(2){
+    
+        padding: 1em 10em;
+        background:black;
+        text-transform: uppercase;
+        position:absolute;
+        top: 45%;
+        left: 0;
+        margin-left: -7.4em;
+        border-color: red;
+        border-radius: 300px;
+        
+        cursor: pointer;
+       
+    }
+
+    #aboutme .container h4:nth-last-child(3){
+    
+        padding: 1em 10em;
+        background:black;
+        text-transform: uppercase;
+        position:absolute;
+        top: 55%;
+        left: 0;
+        margin-left: -8.4em;
+        border-color: red;
+        border-radius: 300px;
+        
+        cursor: pointer;
+       
+    }
+
+    #aboutme .container h4:nth-last-child(4){
+    
+        padding: 1em 10em;
+        background:black;
+        text-transform: uppercase;
+        position:absolute;
+        top: 65%;
+        left: 0;
+        margin-left: -7em;
+        border-color: red;
+        border-radius: 300px;
+     
+        cursor: pointer;
+       
+    }
+
+    #aboutme .about_con h4:hover {
+        width: 600px;
+        background-color: yellow;
+        color: red;
+        
+    }
+    
+    .text{
+        background-color: white; 
+        top: 33.5%;   
+        left: 50%;
+        position: absolute;
+        padding: 3em 3em;
+        border-radius: 20px;
+        transform: scale(0);
+        transition: 200ms ease-in-out;
+    } 
+
+    
+
+    
+   .typing{
+    text-align: justify;
+    
+   }
+   .titleS{
+       display: flex;
+       justify-content: space-between;
+       font-size: 15px;
+       align-items: center;
+       border-bottom: black solid;
+   }
+   
+   .button{
+       cursor: pointer;
+       background: none;
+       outline: none;
+       border: none;
+       font-size: 2em;
+   }
+   #skillclose{
+       border: none;
+       background: none;
+        font-size: 2em;
+        cursor: pointer;
+   }
+    
+  
+ .active1{
+    top: 33.5%;   
+    left: 50%;
+    position: absolute;
+     background: white;
+     padding: 50px 50px;
+     text-align: center;
+     border-radius: 30px;
+     transform: scale(0);
+     transition: 200ms ease-in-out;
+ }
+ .active1 li{
+     list-style: none;
+     
+ }
+
+ .typing_Edu
+ {
+    text-align: justify;
+    
+ }
+ .titleE{
+        
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    align-items: center;
+    border-bottom: black solid;
+ }
+ #educlose
+ {
+    cursor: pointer;
+    background: none;
+    outline: none;
+    border: none;
+    font-size: 2em;
+ }
+
+ .info{
+     background-color: white;
+     padding: 10px 10px;
+     position: absolute;
+    align-items: center;
+    text-align: justify;
+     top: 34%;
+     left: 40%;
+     border-radius: 30px;
+     transform: scale(0);
+     transition: 200ms ease-in-out;
+ }
+ 
+ .titleinfo{
+     border-bottom: black solid;
+     justify-content: space-between;
+    display: flex;
+ }
+
+ .info p{
+     font-weight: bold;
+ }
+ #info_but{
+     background: none;
+     border: none;
+     font-size: 30px;
+     cursor: pointer;
+ }
+/*-------------------------------About Me Animation-------------------------------------------*/
+.cube1
+{
+    animation:aniani1 90s infinite ;
+    
+    background-image: url("/images/Me.jpg");
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    margin: 50px;
+    top: 110%;
+    left: 30%;
+    
+}
+
+.cube1::before
+{
+    content: '';
+    display: inline-block;
+    background-image: url("/images/Me.jpg");
+    background-size: cover;
+    width: 100px;
+    height: 20px;
+    transform: skewX(-40deg);
+    position: absolute;
+    top: -20px;
+    left: 8px;
+}
+
+.cube1::after
+{
+    content: '';
+    display: inline-block;
+    background-image: url("/images/Me.jpg");
+    background-size: cover;
+    width: 16px;
+    height: 100px;
+    transform: skewY(-50deg);
+    position: absolute;
+    top: -10px;
+    left: 100%;
+
+    
+}
+
+
+
+.cube2
+{
+    animation:aniani2 100s infinite ;
+    background-image: url("/images/me1.jpg");
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    margin: 50px;
+    top: 60%;
+    left: 20%;
+    
+}
+
+.cube2::before
+{
+    content: '';
+    display: inline-block;
+    background-image: url("/images/me1.jpg");
+    background-size: cover;
+    width: 100px;
+    height: 20px;
+    transform: skewX(-40deg);
+    position: absolute;
+    top: -20px;
+    left: 8px;
+}
+
+.cube2::after
+{
+    content: '';
+    display: inline-block;
+    background-image: url("/images/me1.jpg");
+    background-size: cover;
+    width: 16px;
+    height: 100px;
+    transform: skewY(-50deg);
+    position: absolute;
+    top: -10px;
+    left: 100%;
+    
+    
+}
+
+
+.cube3
+{
+    animation:aniani3 200s infinite ;
+    
+    background-image: url("/images/me2.jpg");
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    margin: 50px;
+    top: 5%;
+    left: 80%;
+    
+}
+
+.cube3::before
+{
+    content: '';
+    display: inline-block;
+    background-image: url("/images/me2.jpg");
+    background-size: cover;
+    width: 100px;
+    height: 20px;
+    transform: skewX(-40deg);
+    position: absolute;
+    top: -20px;
+    left: 8px;
+}
+
+.cube3::after
+{
+    content: '';
+    display: inline-block;
+    background-image: url("/images/me2.jpg");
+    background-size: cover;
+    width: 16px;
+    height: 100px;
+    transform: skewY(-50deg);
+    position: absolute;
+    top: -10px;
+    left: 100%;
+    
+}
+
+.cube4
+{
+    animation:aniani4 80s infinite ;
+    background-image: url("/images/me3.jpg");
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    margin: 50px;
+    top: 80%;
+    left: 60%;
+    
+}
+
+.cube4::before
+{
+    content: '';
+    display: inline-block;
+    background-image: url("/images/me3.jpg");
+    background-size: cover;
+    width: 100px;
+    height: 20px;
+    transform: skewX(-40deg);
+    position: absolute;
+    top: -20px;
+    left: 8px;
+}
+
+.cube4::after
+{
+    content: '';
+    display: inline-block;
+    background-image: url("/images/me3.jpg");
+    background-size: cover;
+    width: 16px;
+    height: 100px;
+    transform: skewY(-50deg);
+    position: absolute;
+    top: -10px;
+    left: 100%;
+    
+}
+
+
+.cube5
+{
+    animation:aniani5 80s infinite ;
+   
+    background-image: url("/images/me4.jpg");
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    margin: 50px;
+    top: 10px;
+    left: 10px;
+    
+    
+}
+
+.cube5::before
+{
+    content: '';
+    display: inline-block;
+    background-image: url("/images/me4.jpg");
+    background-size: cover;
+    width: 100px;
+    height: 20px;
+    transform: skewX(-40deg);
+    position: absolute;
+    top: -20px;
+    left: 8px;
+}
+
+.cube5::after
+{
+    content: '';
+    display: inline-block;
+    background-image: url("/images/me4.jpg");
+    background-size: cover;
+    width: 16px;
+    height: 100px;
+    transform: skewY(-50deg);
+    position: absolute;
+    top: -10px;
+    left: 100%;
+    
+    
+}
+
+@keyframes aniani1{
+    0% {top:10%;left:30%;transform: rotate(60deg);}
+    25%{top:10px;left:10px;transform: rotate(30deg);}
+    50%{top:70%;left:30%;transform: rotate(0deg);}
+    100%{top:10%;left:30%;transform: rotate(60deg);}
+}
+@keyframes aniani2{
+    0% {top:60%;left:20%;transform: rotate(360deg);}
+    50%{top:110%;left:90%;transform: rotate(60deg);}
+    100% {top:60%;left:20%;transform: rotate(0);}
+}
+@keyframes aniani3{
+    0% {top:5%;left:80%;transform: rotate(360deg);}
+    25%{top:20%;left:0%;transform: rotate(120deg);}
+    50%{top:30%;left:-30%;transform: rotate(60deg);}
+    100% {top:5%;left:80%;transform: rotate(0);}
+}
+@keyframes aniani4{
+    0% {top:80%;left:60%;transform: rotate(360deg);}
+    25%{top:-100%;left:120%;transform: rotate(120deg);}
+    50%{top:15%;left:300%;transform: rotate(60deg);}
+    100% {top:80%;left:60%;transform: rotate(0);}
+}
+@keyframes aniani5{
+    0% {top:10px;left: 10px;transform: rotate(360deg);}
+    25%{top:10%;left:90%;transform: rotate(120deg);}
+    50%{top:10%;left:80%;transform: rotate(60deg);}
+    100% {top:10px;left: 10px;transform: rotate(0deg);}
+}
+    
+/*-------------------------------Contact Me--------------------------------------------------*/
+
+    .aa{
+        width: 100%;
+        height: 100vh;
+        background-image: url(/images/contactback.jpg);
+        position: relative;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+
+
+
+#contactme h1{
+    background-color: red;
+    z-index: 1000;
+    margin: 0;
+    padding: 1% 1%;
+    border-bottom: 3px solid black;
+}
+
+.contactSec{
+    top: 15%;
+    position: absolute;
+   align-items: center;
+    display: flex;
+    padding: 15% 15%;
+    margin: 0;   
+    left:31% ; 
+   background-color: rgb(255, 185, 127);
+    
+    
+}
+
+
+.facebook{
+    background-image: url(/images/icons8-facebook-48.png);
+    padding: 25px 25px;
+    margin-top: -170%;
+}
+.email{
+    background-image: url(/images/icons8-gmail-48.png);
+    padding: 25px 25px;
+    margin-top: -170%;
+}
+.phone{
+    background-image: url(/images/icons8-phone-48.png);
+    padding: 25px  25px;
+    margin-top: -170%;
+    cursor: pointer;
+    
+}
+
+.imagess{
+    width: 90%;
+    margin: auto;
+    height: 70%;
+     background-image: url(/images/facebook.png);
+    background-size: cover;
+    left: 5%;
+    top: 30%;
+    position: absolute;
+    transform: scale(0);
+    border: black solid;
+    transition: 300ms ease-in-out;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.images1{
+    width: 90%;
+    height: 70%;;
+     background-image: url(/images/gmail.png);
+    background-size: cover;
+    left: 5%;
+    top: 30%;
+    position: absolute;
+    transform: scale(1);
+    border: black solid;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    transition: 300ms ease-in-out;
+}
+
+.images2{
+    width: 90%;
+    height: 70%;
+     background-image: url(/images/phonenum.png);
+    background-size: cover;
+    left: 5%;
+    top: 30%;
+    position: absolute;
+    transform: scale(0);
+    border: black solid;
+    transition: 300ms ease-in-out;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.map{
+    top: 4%;
+    position: absolute;
+   
+}
+
